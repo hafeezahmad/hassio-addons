@@ -89,7 +89,8 @@ RUN \
   chmod a+x /etc/services.d/oscam/run
     
 # Ports and volumes
-EXPOSE 8888
-EXPOSE 9999
+EXPOSE 12000
+EXPOSE 12001
+EXPOSE 12002
 
 VOLUME /config
